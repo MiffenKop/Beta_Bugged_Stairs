@@ -1,0 +1,40 @@
+{
+	"credit": "Made by Miffen Kop!",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#side"
+	},
+	"elements": [
+		{
+			"from": [9.36926, -7.65, 9.36926],
+			"to": [24.36926, 0.35, 25.36926],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.25, -7.625, 9.375]},
+			"faces": {
+				"north": {"uv": [1, 8, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 8, 15, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 15, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 15, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [8, 0, 16, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [8, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}
